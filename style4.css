@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+section { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw / 4);
+  height: 100vh;
+}
+
+header { 
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+ }
+
+ h1 {
+  text-align: center;
+ }
+
+ .se1 {
+  transition: 0.8s;
+ }
+
+.se1:hover {
+  background-color: black;
+  border-radius: 100vW;
+}
+.se1:hover .h21 {
+  color: white;
+}
+
+.se2 {
+  background-color: white;
+}
+.se2:hover {
+  border-radius: 15px;
+  background-color: white;
+  border: 5px solid black;
+  border-top: 55px solid black;
+}
