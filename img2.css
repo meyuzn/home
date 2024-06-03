@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  margin: 30px;
+  margin: 25px;
   word-break: keep-all;
   letter-spacing: 0.5px;
   line-height: 1.5;
@@ -60,6 +60,9 @@ p {
   border: 5px solid black;
   border-top: 20px solid black;
 }
+.se1:hover img {
+  opacity: 1;
+}
 
 .se2:hover {
   width: 600px;
@@ -68,6 +71,9 @@ p {
   background-color: white;
   border: 5px solid black;
   border-top: 20px solid black;
+}
+.se2:hover img {
+  opacity: 1;
 }
 
 .se3:hover {
@@ -90,4 +96,18 @@ article {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+img {
+  opacity: 0;
+  margin: 20px;
+}
+
+figcaption {
+  text-align: center;
+  color: #AAA;
+}
+
+.p1 {
+  width: 100px;
 }
