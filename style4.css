@@ -22,9 +22,9 @@ section {
 }
 
 header { 
-  position: fixed;
-  background-color: white;
   width: 100vw;
+  background-color: white;
+  margin-bottom: 10px;
  }
 
  h1 {
@@ -48,10 +48,14 @@ header {
   border-radius: 15px;
   background-color: white;
   border: 5px solid black;
-  border-top: 55px solid black;
+  border-top: 30px solid black;
 }
 
 a {
   color: black;
   text-decoration: none;
+}
+
+h1 {
+  word-break: keep-all;
 }
