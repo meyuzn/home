@@ -18,6 +18,7 @@ section {
   align-items: center;
   width: calc(100vw / 4);
   height: 100vh;
+  transition: 0.8s;
 }
 
 header { 
@@ -31,9 +32,6 @@ header {
  }
 
 
- .se1 {
-  transition: 0.8s;
- }
 
 .se1:hover {
   background-color: black;

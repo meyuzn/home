@@ -111,3 +111,8 @@ figcaption {
 .p1 {
   width: 100px;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
