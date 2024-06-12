@@ -1,0 +1,157 @@
+#mySidenav section {
+  position: absolute;
+  left: -420px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 650px;
+  height: 450px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: right;
+}
+
+#mySidenav section:hover {
+  left: 0;
+}
+
+#mySidenav2 div {
+  position: absolute;
+  right: -350px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 500px;
+  height: 480px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+#mySidenav2 div:hover {
+  right: 0;
+}
+
+#h21 {
+  top: 80px;
+  background-color: #F6CECE;
+  overflow: scroll;
+}
+
+#h22 {
+  top: 160px;
+  background-color: #F5A9A9;
+  overflow: scroll;
+}
+
+#h23 {
+  top: 240px;
+  background-color: #F78181;
+  overflow: scroll;
+}
+
+#h24 {
+  top: 320px;
+  background-color: #FA5858;
+  overflow: scroll;
+}
+
+#h25 {
+  top: 300px;
+  background-color: #FF3838;
+   overflow: scroll;
+  j
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  writing-mode: vertical-lr;
+}
+
+p {
+  font-size: 18px;
+  width: 300px;
+  margin: 5px;
+  word-break: keep-all;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+  align-items: ;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.di4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  opacity: 0;
+  transition: 0.4s;
+}
+#h24:hover .di4 {
+  opacity: 1;
+}
+
+.di3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  opacity: 0;
+  transition: 0.4s;
+}
+#h23:hover .di3 {
+  opacity: 1;
+}
+
+.di2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  opacity: 0;
+  transition: 0.4s;
+}
+#h22:hover .di2 {
+  opacity: 1;
+}
+
+.di1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
+  opacity: 0;
+  transition: 0.4s;
+  color: F3EAEA;
+}
+#h21:hover .di1 {
+  opacity: 1;
+}
+
+.di5 {
+  opacity: 0;
+  transition: 0.4s;
+}
+#h25:hover .di5 {
+  opacity: 1;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
